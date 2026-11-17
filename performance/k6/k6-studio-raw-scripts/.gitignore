@@ -1,0 +1,3 @@
+# Recordings contain passwords and live tokens. Keep everything here out of git.
+*
+!.gitignore

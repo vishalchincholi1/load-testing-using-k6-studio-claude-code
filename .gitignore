@@ -1,0 +1,12 @@
+# Secrets and recordings
+.env*
+!.env.example
+*.har
+*.k6s
+*.bin
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+
