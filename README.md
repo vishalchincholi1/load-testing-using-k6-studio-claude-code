@@ -1,10 +1,10 @@
-# Load Testing Playbook: k6 Studio + Claude Code
+# Load Testing Template: k6 Studio + Claude Code
 
 Nov 17, 2026 · @Vishal Chincholi
 
-## What this playbook is
+## What this template is
 
-This playbook shows how to find out how fast a web page's API stays when many people use it at once, without writing test code by hand. You click through the page once in your browser, and the tools turn that click-through into a test that repeats it for 10, 50 or more simulated users.
+This template shows how to find out how fast a web page's API stays when many people use it at once, without writing test code by hand. You click through the page once in your browser, and the tools turn that click-through into a test that repeats it for 10, 50 or more simulated users.
 
 **Who it is for:** QA, developers, and anyone asked to "load test this page". No k6 coding knowledge is needed; you need to be comfortable copying commands into a terminal.
 
@@ -343,7 +343,7 @@ Log every run in one table, then write the summary from it. Copy this run log in
 | 2026-10-22 | checkout-linked | load-baseline | 50 × 1 min | dev | 0% | 97.97% | 13.5 s | — | filters all, 18.0 s | No | checkout-linked-50VU-1m-baseline |
 |  |  |  |  |  |  |  |  |  |  |  |  |
 
-**Results summary template** (ask Claude: *"write the results summary for these runs using the playbook template"*)
+**Results summary template** (ask Claude: *"write the results summary for these runs using the results summary template"*)
 
 ```markdown
 **Load test: <page> on <env>, <date>**
